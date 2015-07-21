@@ -29,10 +29,10 @@ function doSomeMath() {
     }
 
     if (entry > 10000) {
-    	output.innerHTML = divide(entry);
+    	output.innerHTML = "The quotient of your number divided by 10 is " + divide(entry);
     }
     if (entry < 10000) {
-    	output.innerHTML = multiply(entry);
+    	output.innerHTML = multiply(entry) + " is the product of your number multiplied by 5";
     }
 }
  
